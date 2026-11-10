@@ -268,7 +268,7 @@ body.is-loading .hero__doc--b{transform:translateY(40px)}
   .hero__copy{padding-bottom:12px}
   .hero__stage{height:clamp(320px,82vw,520px);margin-top:12px}
   .hero__stage{overflow:hidden}
-  .hero__ring{width:112%;top:54%}
+  .hero__ring{width:auto;height:94%;top:50%}
   .facts{grid-template-columns:repeat(2,1fr);padding-block:0}
   .facts li:nth-child(3){padding-left:0}
   .facts li:nth-child(3)::before{display:none}
