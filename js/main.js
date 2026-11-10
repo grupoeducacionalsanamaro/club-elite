@@ -55,11 +55,6 @@
     nav.classList.toggle('is-stuck', y > 24);
     bar.style.transform = 'scaleX(' + (h > 0 ? y / h : 0) + ')';
     var hh = hero.offsetHeight;
-    if (y < hh && !d.body.classList.contains('is-loading')) {
-      var p = y / hh;
-      if (docA) docA.style.transform = 'translate3d(0,' + (p * 40) + 'px,0)';
-      if (docB) docB.style.transform = 'translate3d(0,' + (p * 70) + 'px,0)';
-    }
     if (sticky) {
       var mTop = memb.getBoundingClientRect().top, mBot = memb.getBoundingClientRect().bottom;
       var show = y > hh * 0.8 && !(mTop < w.innerHeight * 0.7 && mBot > 0);
